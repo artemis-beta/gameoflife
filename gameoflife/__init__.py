@@ -53,7 +53,7 @@ class conway_gol(object):
 
         return _out
 
-    def _run(self):
+    def run(self):
         from time import sleep
         from subprocess import call
         call("clear")
