@@ -1,10 +1,13 @@
 import numpy as np
 from termcolor import colored
 
+__version__ = '0.1.0'
+
 class conway_gol(object):
     def __init__(self, axis_length, sources):
         _x = [colored('■', 'white') for i in range(axis_length)]
         _y = [_x for i in range(axis_length)]
+        self._version = __version__
         self._grid = np.array(_y)
         self._sources = []
         self._random_fill(sources)
