@@ -9,4 +9,5 @@ setup(name                =  'gameoflife'                                  ,
       license             =  'MIT'                                         ,
       packages            =  ['gameoflife']                                ,
       zip_safe            =  False                                         ,
+      install_requires    =  ['termcolor', 'numpy']
      )
